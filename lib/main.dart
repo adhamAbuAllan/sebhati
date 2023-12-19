@@ -25,7 +25,7 @@ main(){
     ],
     locale: const Locale("ar", "SA"),
 
-    home: NoInternet(),));
+    home: const NoInternet(),));
 }
 class
 NoInternet extends StatefulWidget {
@@ -227,7 +227,7 @@ class _NoInternetState extends State<NoInternet> with WidgetsBindingObserver {
                               height: 55,
                               child: buildSebhaElevatedButton(),
                             )   ,
-                            SizedBox(height: 20,),
+                            const SizedBox(height: 20,),
                             SizedBox(
                               width: double.infinity,
                               height: 55,
@@ -241,7 +241,7 @@ class _NoInternetState extends State<NoInternet> with WidgetsBindingObserver {
                                       saveTotal(total);
                                     });
                                   },
-                                  child: Text("تصفير")),
+                                  child: const Text("تصفير")),
                             ),
                           ],
                         )
