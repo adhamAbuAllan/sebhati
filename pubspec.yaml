@@ -81,4 +81,5 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - images/assets/tasbih.png
+    - images/assets/splash_screen.png
 
