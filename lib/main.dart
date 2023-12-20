@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:colorful_safe_area/colorful_safe_area.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sheake_it/splash_screen.dart';
 import 'package:vibration/vibration.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import '../../core/utils/styles/button.dart';
@@ -25,7 +26,7 @@ main(){
     ],
     locale: const Locale("ar", "SA"),
 
-    home: const NoInternet(),));
+    home: const SplashScreen(),));
 }
 class
 NoInternet extends StatefulWidget {
